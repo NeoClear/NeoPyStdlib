@@ -6,11 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45af0edc-a5cf-4c55-ac70-3156a033ce40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NData/NMarkdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/TestNMarkdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NData/NJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/NData/NJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestNJsonPrimitive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/TestNJsonPrimitive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,45 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NData/NJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/TestNJsonPrimitive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/static.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/test.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -91,6 +57,8 @@
         <option value="$PROJECT_DIR$/Doc/source/conf.py" />
         <option value="$PROJECT_DIR$/NData/NJson.py" />
         <option value="$PROJECT_DIR$/Test/TestNJsonPrimitive.py" />
+        <option value="$PROJECT_DIR$/Test/TestNMarkdown.py" />
+        <option value="$PROJECT_DIR$/NData/NMarkdown.py" />
       </list>
     </option>
   </component>
@@ -105,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,11 +91,14 @@
               <item name="NeoPyStdlib" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NeoPyStdlib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestNJsonPrimitive">
+  <component name="RunManager" selected="Python tests.Unittests in TestNMarkdown.py">
     <configuration name="Dev" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,8 +174,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in TestNMarkdown.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Dev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test/TestNMarkdown.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in TestNMarkdown.py" />
         <item itemvalue="Python.TestNJsonPrimitive" />
         <item itemvalue="Python tests.Unittests in TestNJsonPrimitive.py" />
         <item itemvalue="Python.Dev" />
@@ -224,47 +211,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 28m 33s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 29m 29s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 29m 59s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 33m 03s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 33m 51s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 33m 56s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 34m 44s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 34m 54s.xml">
-      <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 34m 59s.xml">
       <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestNJsonPrimitive_py - 2019.02.12 at 15h 35m 52s.xml">
       <configuration name="Unittests in TestNJsonPrimitive.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 44m 44s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 45m 07s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 46m 54s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 47m 09s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 48m 36s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 48m 37s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 49m 03s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestNMarkdown_py - 2019.02.12 at 16h 49m 15s.xml">
+      <configuration name="Unittests in TestNMarkdown.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="720" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14308426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3771252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3771252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,9 +269,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/suite.py" />
     <entry file="file://$PROJECT_DIR$/Test/result.txt" />
-    <entry file="file://$PROJECT_DIR$/NData/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dev.py" />
     <entry file="file://$PROJECT_DIR$/Doc/build/html/genindex.html" />
     <entry file="file://$PROJECT_DIR$/Doc/source/conf.py">
@@ -305,20 +288,40 @@
     <entry file="file://$PROJECT_DIR$/Test/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/NData/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NData/NJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/TestNJsonPrimitive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="115">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NData/NJson.py">
+    <entry file="file://$PROJECT_DIR$/NData/NMarkdown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="284">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/TestNMarkdown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
